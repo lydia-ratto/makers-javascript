@@ -42,8 +42,6 @@ function searchCandy(searchString, price) {
     
 }
 
-console.log(searchCandy('P', 6));
-
 module.exports = searchCandy
 
 
