@@ -17,3 +17,9 @@ describe('searchCandy', () => {
         expect(searchCandy('S', 4)).toStrictEqual(['Skitties', 'Skittles'])
     })
 })
+
+describe('searchCandy', () => {
+    it("returns [ 'Skitties', 'Skittles' ] with s and 4", () => {
+        expect(searchCandy('S', 4)).toStrictEqual(['Skitties', 'Skittles'])
+    })
+})

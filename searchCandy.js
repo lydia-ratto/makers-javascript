@@ -18,7 +18,7 @@ function searchCandy(searchString, price) {
 
     function matchesSearch(candy) {
         for (let i = 0; i < searchString.length; i ++) {
-            if (candy.name.charAt(i) !== searchString.charAt(i)) {
+            if (candy.name.toUpperCase().charAt(i) !== searchString.toUpperCase().charAt(i)) {
                 result = false
                 break
             } else {
